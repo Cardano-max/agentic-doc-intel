@@ -1,0 +1,33 @@
+{
+  "data": {
+    "po_number": "M167604-2",
+    "vendor_name": "Northwind Office Systems LLC",
+    "acknowledgment_number": "S000341409",
+    "acknowledgment_date": "2026-03-11",
+    "customer_number": "C-48213",
+    "terms": "Net 30",
+    "ship_to_name": "Cedar Ridge Interiors",
+    "total_amount": 17965.80,
+    "line_items": [
+      { "item_number": "HAS-PSS-42", "quantity": 12, "unit_price": 1130.83, "amount": 13569.96 },
+      { "item_number": "HAS-RTN-18", "quantity": 6,  "unit_price": 732.64,  "amount": 4395.84 }
+    ],
+    "field_confidences": {
+      "po_number": 0.99,
+      "vendor_name": 0.93,
+      "total_amount": 0.98,
+      "line_items": 0.95
+    }
+  },
+  "decision": "AUTO_APPROVED",
+  "confidence": 0.95,
+  "report": {
+    "valid": true,
+    "error_count": 0,
+    "warning_count": 0,
+    "correction_count": 1,
+    "confidence_score": 0.95
+  },
+  "cost_usd": 0.0081,
+  "retries": 0
+}
